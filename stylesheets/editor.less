@@ -34,3 +34,30 @@
   -webkit-animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
 }
+
+.editor {
+    line-height: 1.6em;
+    .gutter {
+        background-color: #222;
+        .line-numbers {
+            .line-number {
+                padding-left: 12px;
+                padding-right: 5px;
+                font-size: 0.77em;
+            }
+            .cursor-line {
+                background: rgba(255, 255, 255, 0.07);
+            }
+        }
+    }
+    .scroll-view {
+        padding-left: 8px;
+        .lines {
+            .line {
+                .comment {
+                    font-style: normal;
+                }
+            }
+        }
+    }
+}

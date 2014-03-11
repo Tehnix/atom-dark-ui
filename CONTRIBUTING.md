@@ -1,1 +1,1 @@
-See the [Atom contributing guide](https://atom.io/docs/latest/contributing)
+Feel free to come with contributions.
